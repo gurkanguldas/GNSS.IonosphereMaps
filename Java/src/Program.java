@@ -14,8 +14,7 @@ public static void main(String[] args) {
 	IonosphereManager.File_Name = FileName;
 	
 		try {
-			ionosphereManager.WriteIonosphere(Year, Year+8, Day,365, "Ionosphere/IONEX", 
-																	 "Ionosphere/KP_F107");
+			ionosphereManager.WriteIonosphere(Year, Year+8, Day,365, "Ionosphere/IONEX", "Ionosphere/KP_F107");
 			
 		//	ionosphereManager.WriteKP_F107(Year, Year+20, "/media/gurkan/Personel/DeepLearning/Ionosphere/KP_F107");
 		} catch (IOException e) {
