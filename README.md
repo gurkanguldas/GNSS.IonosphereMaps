@@ -1,4 +1,5 @@
 # Ionosphere Maps
+Signals traveling between space and the earth are somewhat distorted as they pass through the ionosphere layer of the atmosphere, depending on their frequencies. Therefore, it is very important to be able to accurately and precisely determine the amount of free electrons in the ionosphere. Today, many different organizations produce ionosphere models on a global scale using various computational techniques. The number of organizations producing ionosphere models has increased significantly since 1998 and especially in the last decade. At the same time, the accuracy of the models has also been improved over the same time frame. These longterm calculations and almost half a billion datasets allowed it to be correlated with other space events (Solar Flux and KpIndex etc.). In this study, it is aimed to predict ionosphere models with fully connected neural networks and RNN (LSTM, etc.) methods. Ionosphere maps were created for the best model determined.
 ## Prediction Map
 ![Output](https://user-images.githubusercontent.com/59657939/137488719-82adcb74-aee8-4fb7-aab6-d87f55c377af.gif)
 ## Real Map
